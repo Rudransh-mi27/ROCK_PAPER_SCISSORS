@@ -24,7 +24,7 @@ function generateComputerChoice (){
         computerchoice = "paper"
     }
      if(randomNumber===3){
-        computerchoice = "scissros"
+        computerchoice = "scissors"
     }
     computerChoiceDisplay.innerHTML = computerchoice
 }
@@ -36,19 +36,19 @@ function resultDeclare() {
     if(computerchoice==='rock' && userchoice === 'paper'){
       result="You won!"
     }
-    if(computerchoice==='rock' && userchoice === 'scissros'){
+    if(computerchoice==='rock' && userchoice === 'scissors'){
       result="You lost!"
     }
     if(computerchoice==='paper' && userchoice === 'rock'){
       result="You lost!"
     }
-     if(computerchoice==='paper' && userchoice === 'scissros'){
+     if(computerchoice==='paper' && userchoice === 'scissors'){
       result="You won!"
     }
-     if(computerchoice==='scissros' && userchoice === 'rock'){
+     if(computerchoice==='scissors' && userchoice === 'rock'){
       result="You won!"
     }
-     if(computerchoice==='scissros' && userchoice === 'paper'){
+     if(computerchoice==='scissors' && userchoice === 'paper'){
       result="You lost!"
     }
 resultDisplay.innerHTML=result
