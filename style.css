@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    font-family: Arial;
+    
+}
+.en{
+    background-image: url("Rock_paper.jpg");
+   background-size: cover;
+}
+.box{
+    margin: 200px;
+    margin-left: 570px;
+    margin-top: 300px;
+   font-size: 20px;
+    align-items: center;
+    justify-content:first baseline;
+}
+#computerChoice{
+    margin-left: 10px;
+align-items: center;
+justify-content: space-between;
+}
+.computer{
+    background-color: black;
+    display: flex;
+    background-color: rgb(151, 125, 90);
+}
+#userChoice{
+    margin-left: 87px;
+align-items: center;
+justify-content: space-between;
+}
+.user{
+    margin-top: 24px;
+}
+#result{
+margin-left: 166px;
+}
+.result{
+    margin-top: 24px;
+}
+.buttons{
+  display: inline-flexbox;
+    align-items: initial;
+justify-content: space-between;
+}
+
+#rock{
+     margin-top: 24px;
+     padding: 5px;
+     background-color: rgb(127, 189, 185);
+     border:2px solid transparent ;
+     font-size: 40px;
+}
+#rock:hover{
+   border: 3px solid white;  
+}
+#paper{
+ margin-top: 24px;
+ padding: 5px;
+ margin-left: 10px;
+ background-color: rgb(127, 189, 185);
+ border:2px solid transparent ;
+ font-size: 40px;
+}
+#paper:hover{
+   border: 3px solid white;  
+}
+#scissros{
+ margin-top: 24px;
+ padding: 5px;
+ margin-left: 10px;
+ background-color: rgb(127, 189, 185);
+ border:2px solid transparent ;
+ font-size: 40px;
+}
+#scissros:hover{
+   border: 3px solid white;  
+}
